@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+​
+<head>
+    <meta charset="utf-8">
+    <title>Information Form</title>
+    <link href="css/basic_form.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="image/new.png">
+            </div>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="project.html"> Projects </a></li>
+                <li class="active"><a href="#"> Contact </a></li>                     
+            </ul>
+            
+        </div>
+    </header>
+    <form>
+        <h1>CONTACT FORM</h1>
+        <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+        <section>
+            <p>
+                <label for="name">
+                    <span>Name: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="name" name="username"></input>
+            </p>
+            <p>
+                <label for ="email">
+                    <span>Email-id: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for ="mobile">
+                    <span>Mobile Number: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>     
+                <input type="tel" id="mobile" name="mobile_number">       
+            </p>
+            <fieldset id="qualification">
+                <legend>Education Qualification</legend>
+                <p>
+                    <div class="label_handle">
+                        <label for="high_degree">
+                            <span>Select your highest Qualification</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                        </label>
+                        <select id="high_degree">
+                        <option value="doctrate_degree">Doctrate degree</option>
+                        <option value="masters_degree">Master's degree</option>
+                        <option value="bachelors_degree">Bachelor's degree</option>
+                        <option value="high_school">High School degree</option>
+                        </select>
+                    </div>
+                </p>
+                <div class="degree_class">
+                    <p>
+                        <label for="degree_details">
+                            <span>Qualification Details: </span>
+                        </label>
+                        <input type="text" id="degree_details" name="Qualification info">
+                    </p>
+                    <p>
+                    <label for="yop">
+                        <span>Year of Passing: </span>
+                    </label>
+                        <input id="yop" type="month" name="year_of_passing" min="1900-01" max="2020-12">                
+                    </p>
+                </div>
+            </fieldset>
+            <p>
+                <label for="address">
+                    <span>Contact Address: </span>
+                </label>
+                <textarea id="address" rows="4" cols="30"></textarea>
+            </p>
+            <fieldset>                
+                    <legend>Current Post Details</legend>
+                    <div id="current_post">
+                        <label for="current_post">
+                            <span>Current Position: </span>
+                            <strong><abbr title="required">*</abbr></strong>
+                        </label>
+                        <br>
+                        <div class="radio_setting">
+                            <input type="radio" id="employed" name="position" value="employed" class="radio">
+                            <label for="employed">
+                                <span>Employed</span>
+                            </label>
+                            <input type="radio" id="student" name="position" value="student" class="radio">
+                            <label for="student">
+                                <span>Student</span>
+                            </label>
+                            <input type="radio" id="unemployed" name="position" value="unemployed" class="radio">
+                            <label for="unemployed">
+                                <span>Unemployed</span>
+                            </label>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <label for="company_name">
+                                <span>Company Name: </span>
+                            </label>
+                            <input type="text" id="cname" name="cname">
+                        </p>
+                    </div>                
+            </fieldset>
+            <div class="query">
+                <p>
+                    <label for="query">
+                        <span>Query: </span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <textarea id="query" rows="4" cols="30"></textarea>
+                </p>
+            </div>
+        </section>
+        <section>
+            <p> <button type="submit" id="submit_button" class="block">Submit</button> </p>
+        </section>
+    </form>
+</body>
+</html>
