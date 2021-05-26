@@ -1,7 +1,7 @@
 h1 {
     margin-top: 0;
     text-align: center;
-    color:purple;
+    color:lightcoral;
 }
 form {
     margin:auto;
@@ -103,7 +103,7 @@ input.radio {
     width: 100%;
     border: none;
     border-radius: 2px;
-    background-color:purple;
+    background-color:lightcoral;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
