@@ -1,12 +1,12 @@
 h1 {
     margin-top: 0;
     text-align: center;
-    color: green;
+    color:purple;
 }
 form {
-    margin: 0 auto;
+    margin:auto;
     width: 450px;
-    padding: 1em;
+    padding: 0.1em;
     border-style: groove;
     border-color: black;
     border-radius: 1em;
@@ -39,7 +39,7 @@ input:focus, textarea:focus {
 }
 textarea {
     vertical-align: top;
-    height: 4em;
+    height: 3em;
     resize: vertical;
     width: 300px;
 }
@@ -103,7 +103,7 @@ input.radio {
     width: 100%;
     border: none;
     border-radius: 2px;
-    background-color: #4CAF50;
+    background-color:purple;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
