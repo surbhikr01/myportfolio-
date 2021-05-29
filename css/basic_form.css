@@ -156,7 +156,7 @@ ul li.active a{
 }
 .main{
     background-image:url(../image/background.jpg) ;
-    height: 100vh;
+    height: auto;
     background-size: cover; 
     background-position:center;
 }
