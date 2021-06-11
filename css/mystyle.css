@@ -83,6 +83,7 @@ ul{
     float: right;
     list-style-type: none;
     margin-top: 25px;
+   
 }
 ul li{
     display: inline-block;
@@ -93,6 +94,7 @@ ul li a{
     padding: 5px 20px;
     border: 1px solid transparent;
     transition: 0.6s ease;
+    box-shadow:0 8px 8px 0; 
 }
 ul li a:hover{
     background-color: black;
@@ -165,7 +167,4 @@ ul li.active a{
     left: 50%;
     transform: translate(-50%,-50%);
 } 
-.panel-heading{
-    
-}
 
